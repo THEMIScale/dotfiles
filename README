@@ -1,0 +1,22 @@
+to enable the configure:
+1.make sure the dir path is "~/dotfiles".
+2.make sure there is dir "~/.config/" exist.
+3.use correct "stow" command especially "-t".
+
+suppose the dir tree is:
+┌──(kali㉿MSI)-[~/dotfiles]
+└─$ tree -L 2
+.
+├── nvim_config
+│   └── nvim
+├── README
+└── zsh
+
+then according to the table below, to enable nvim configs, the correct "stow" usage should be :
+```
+$ stow -t ~/.config nvim_config
+```
+
+tables of where the file should be linked to:
+zsh|~/.zshrc
+nvim|~/.config/nvim 
