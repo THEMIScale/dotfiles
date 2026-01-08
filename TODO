@@ -1,0 +1,2 @@
+1.make express way to close the terminal mode and add a express way to open a terminal downside of the nvim window.
+2.leanier plugins/lualine.lua, it's tooo fat.
