@@ -1,7 +1,7 @@
 to enable the configure:
 1.make sure the dir path is "~/dotfiles".
 2.make sure there is dir "~/.config/" exist.
-3.use correct "stow" command especially "-t".
+3.isntall "stow" and use correct "stow" command especially "-t".
 
 suppose the dir tree is:
 ┌──(kali㉿MSI)-[~/dotfiles]
