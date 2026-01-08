@@ -258,7 +258,7 @@ export N_PREFIX="$HOME/n"; [[ :$PATH: == *":$N_PREFIX/bin:"* ]] || PATH+=":$N_PR
 # Set up fzf key bindings and fuzzy completion
 source <(fzf --zsh)
 
-alias nv='nvim'
+alias vim='nvim'
 
 
 function y() {
