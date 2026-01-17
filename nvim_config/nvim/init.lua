@@ -261,3 +261,4 @@ local opts = { silent = true, nowait = true }
 ------------speed ways--------------------------
 -- 如果你想用 <leader> 键，并确保它干净，比如用 <leader>tt
 vim.keymap.set("n", "<leader>tt", ":vertical belowright split | terminal<CR>", { desc = "打开终端" })
+------------speed ways exit----------------------
